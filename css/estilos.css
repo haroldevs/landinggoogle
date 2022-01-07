@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'icons';
+    src:  url('https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/google/assets/fonts/icons.eot?c5ont' );
+    src:  url('https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/google/assets/fonts/icons.eot?c5ont#iefix') format('embedded-opentype'),
+      url('https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/google/assets/fonts/icons.ttf?c5ont') format('truetype'),
+      url('https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/google/assets/fonts/icons.woff?c5ont') format('woff'),
+      url('https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/google/assets/fonts/icons.svg?c5ont#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+  
+:root {
+    --light-gray-color: #f2f2f2;
+    --gray-color: #e4e4e4;
+    --dark-gray-color: #5f6368;
+    --border-gray-color: #dfe1e5;
+    --boder-button-color: #c6c6c6;
+  }
+
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+figure{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Init header*/
+.header{
+    padding: 1.1em 1.3em;
+}
+
+
+.header__menu-container li {
+    margin-right: 0.9em;
+}
+
+
+.header__menu-container a:first-child:hover,
+.header__menu-container a:nth-of-type(2):hover {
+  color: var(--dark-gray-color);
+}
+
+.header .header__menu-container img {
+    border-radius: 50%;
+    width: 32px;
+}
+
+.header .header__menu-container .header__menu__container-icon{
+    text-decoration: none;
+}
+
+.header__menu-container .header__menu__container-icon::before{
+    color: var(--dark-gray-color);
+    content: "\e900";
+    font-family: 'icons';
+    font-size: 2.5em;
+}
+
+/*  INIT MAIN*/
+.main .main-container{
+    text-align: center;
+    width: 47vw;
+}
+
+.main-container .main__container-logo img{
+    width: 272px;
+}
+
+.main-container .main__container-search_input{
+    border: 1px solid var(--border-gray-color);
+    border-radius: 30px;
+    text-align: left;
+    padding: 0 1em;
+}
+
+.main-container .main__container-search_input:hover{
+    box-shadow: 0px 0px 5px 1px var(--gray-color);
+}
+
+.main__container-search_input input{
+    border: none;
+    outline: none;
+    padding: 1em 0;
+}
+
+.main__container-search_input .main__container__search_input-icon::before{
+    color: #9AA046;
+    content: "\e901";
+    font-family: 'icons';
+    font-size: 20px;
+}
+
+.main__container-search_input .main__container__search_input-micro_container{
+    border-left: 1px solid var(--border-gray-color);
+    padding-left: 2%;
+}
+
+.main__container-search_input .main__container__search_input-micro_container a{
+    display: inline-block;
+    background-size: contain;
+    background-image: url('https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/google/assets/img/googlemic_color_24dp.png');
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.main .main__container-search-button  a {
+    font-size: 1.1em;
+    background-color: var(--light-gray-color);
+    border-radius: 5px;
+    color: var(--dark-gray-color);
+    padding: 0.7em 1.5em;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+
+
+.main .main__container-search-button a:hover{
+    color: black;
+    text-decoration: none;
+    border-color: var(--boder-button-color);
+}
+
+/* END MAIN*/
+
+/*INIT FOOTER*/
+
+.footer{
+    width: 100%;
+    background-color: var(--light-gray-color);
+}
+
+.footer a {
+    color: var(--dark-gray-color);
+    
+  }
+  
+.footer  div {
+    border-top: 1px solid var(--border-gray-color);
+    color: var(--dark-gray-color);
+    padding: 0.95em 0 0.95em 2.2em;
+  }
+  
+  .footer .footer-region p {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 0;
+  }
+  /*End footer*/
+
+/*END FOOTER*/

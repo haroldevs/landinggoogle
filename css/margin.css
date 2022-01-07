@@ -1,0 +1,15 @@
+.header .header-menu-container li{
+    margin-right: 0;
+}
+
+.main-container .main__container-logo{
+    margin-bottom: 1.5em;
+}
+
+.main-container .main__container-search_input{
+    margin-bottom: 1.5em;
+}
+
+.footer .footer-option li{
+    margin-right: 1.8em;
+}
